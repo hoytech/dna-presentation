@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>The 3.5 billion year software project</title>
+<!-- metadata -->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.1" />
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+<!-- S5 JS -->
+<script src="ui/default/slides.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header"></div>
+<div id="footer">
+<h1>The 3.5 billion year software project</h1>
+</div>
+
+</div>
+
+
+<div class="presentation">
+
+<div class="slide">
+  <center>
+  <h1 style="font-size: 350%">The 3.5 billion year software project</h1>
+  <br>
+  <h2>Doug Hoyte</h2>
+  </center>
+</div>
+
+
+
+<div class="slide">
+  <h1>The Central Dogma of Molecular Biology</h1>
+  <center><img src="img/dogma0.svg"></center>
+</div>
+
+
+<!-- With apologies to http://ds9a.nl/amazing-dna/ -->
+
+<div class="slide">
+  <h1>The Central Dogma of... Unix?</h1>
+  <center><img src="img/dogma.svg"></center>
+</div>
+
+
+
+<div class="slide">
+  <h1>DNA is really small</h1>
+  <center><img src="img/transistor.svg"></center>
+</div>
+
+
+<div class="slide">
+  <h1>Transcription</h1>
+  <ul style="font-size: 90%">
+    <li>Transcription is the process of building RNA from DNA templates</li>
+    <li>DNA and RNA have a one-to-one correspondence except thymine is changed into uracil (<code>tr/ATCG/AUCG/</code>) </li>
+    <li>DNA strands are separated by helicase protein so that RNA polymerase can transcribe them to RNA (which is usually single-stranged)</li>
+  </ul>
+  <center><img src="img/transcription.svg"></center>
+</div>
+
+
+<div class="slide">
+  <h1>Polymerase Chain Reaction</h1>
+  <ul>
+    <li>A laboratory process to rapidly duplicate a tiny amount of DNA billions of times (exponential growth)</li>
+    <li>Similar to how DNA replicates naturally except uses thermocycling</li>
+  </ul>
+  <center><img src="img/pcr.svg"></center>
+</div>
+
+
+
+
+<div class="slide">
+  <h1>Sanger Sequencing</h1>
+  <ul>
+    <li>Adds special terminal nucleotides that stop the polymerase reaction</li>
+    <li>These special nucleotides are tagged so they glow particular colours under UV light:</li>
+  </ul>
+  <center><img src="img/termination.svg"></center>
+</div>
+
+
+
+<div class="slide">
+  <h1>Electrophoresis</h1>
+  <ul>
+    <li>The DNA segments are put at one end of an agarose gel solution then a voltage is applied</li>
+    <li>Nucleic acid sequences are negatively charged so they will move towards the positive terminal</li>
+    <li>Longer sequences will move slower than shorter sequences because they are heavier</li>
+  </ul>
+  <center><img src="img/electrophoresis.svg"></center>
+</div>
+
+
+
+<div class="slide">
+  <h1>Analyze Flouresence Peaks</h1>
+  <center><img width="70%" height="70%" src="img/sanger.gif"></center>
+</div>
+
+
+
+
+<div class="slide">
+  <h1>Restriction Enzymes</h1>
+  <ul>
+    <li>Restriction enymes cut DNA molecules at certain sub-strings (usually palindromes so they can cut both strands)</li>
+    <li>Bacteria have them to destroy virus DNA sequences (the original anti-virus scanners)</li>
+    <li>For example, EcoRI looks for the sequence <b style="color: blue">GAATTC</b></li>
+  </ul>
+  <center><img width="80%" height="80%" src="img/restriction.svg"></center>
+</div>
+
+
+
+<div class="slide">
+  <h1>Whole-genome sequencing</h1>
+  <ul>
+    <li>Electrophoresis can only handle sequences of up to a few thousand base pairs in length</li>
+    <li>Long DNA molecules must be cut up by restriction enzymes (or at random by ultrasound)</li>
+    <li>After cutting we are left with many overlapping fragments</li>
+  </ul>
+  <center><img src="img/cleaving.svg"></center>
+</div>
+
+
+
+<div class="slide">
+  <h1>Alignment</h1>
+  <ul>
+    <li>Full genomes can be sequenced by sequencing and then aligning overlapping fragments</li>
+  </ul>
+  <center><img src="img/alignment.svg"></center>
+</div>
+
+
+
+<div class="slide">
+  <h1>Example genome</h1>
+<table><tr><td width=60%>
+  <ul>
+    <li>Bacteriophage (virus that attacks bacteria) called Phi-X-174</li>
+    <li>First genome ever fully sequenced (in 1977)</li>
+    <li>Single-stranded, circular DNA</li>
+    <li>Very small genome: 11 genes, 5386 bases (10772 bits, 1347 bytes)</li>
+    <li>Overlapping gene coding regions</li>
+    <li>Genome has been synthesized from scratch in the lab</li>
+  </ul>
+</td><td>
+  <img height="70%" src="img/PhageExterior.svg">
+</td></tr></table>
+</div>
+
+
+<div class="slide">
+  <h1>Bacterium minding its business</h1>
+  <center>
+  <img height="70%" src="img/infection1.svg">
+  </center>
+</div>
+
+<div class="slide">
+  <h1>Phage inserts DNA Plasmid</h1>
+  <ul>
+    <li>The phage finds an opening in the cell wall called a port and injects its DNA</li>
+  </ul>
+  <center>
+  <img height="70%" src="img/infection2.svg">
+  </center>
+</div>
+
+<div class="slide">
+  <h1>DNA Plasmid is replicated</h1>
+  <ul>
+    <li>The phage's DNA is copied by the cell's polymerase</li>
+  </ul>
+  <center>
+  <img height="70%" src="img/infection3.svg">
+  </center>
+</div>
+
+<div class="slide">
+  <h1>DNA Plasmid -> RNA -> Phages</h1>
+  <ul>
+    <li>The phage's genes are transcribed and translated into proteins which build copies of the phages</li>
+  </ul>
+  <center>
+  <img height="70%" src="img/infection4.svg">
+  </center>
+</div>
+
+<div class="slide">
+  <h1>Cell wall lysis, death of bacterium</h1>
+  <ul>
+    <li>A gene in the phage's DNA is expressed (turned on) which creates a protein that breaks down the cell wall, killing the bacterium and releasing the phages</li>
+    <li>Custom-engineered phages may be our last line of defense against super-bacteria that survive all anti-bacterial medicines</li>
+  </ul>
+  <center>
+  <img height="70%" src="img/infection5.svg">
+  </center>
+</div>
+
+
+
+
+
+<div class="slide">
+  <h1>Translation: The Genetic Code</h1>
+  <ul>
+    <li>A ribosome translates groups of 3 RNA bases called codons into amino acids and appends them onto a chain until it sees a stop instruction</li>
+    <li>The results are amino-acid chains which fold into proteins</li>
+  </ul>
+  <center><img src="img/codon.svg"></center>
+</div>
+
+
+<div class="slide">
+  <h1>Redundancy in the genetic code</h1>
+  <ul>
+    <li>The number of codons is 4<sup>3</sup> = 64</li>
+    <li>3 encode start: AUG, GUG, and UUG. As start codons they all encode M but mid-sequence they encode M, V, and L respectively</li>
+    <li>3 encode stop: UAG, UGA, and UAA</li>
+    <li>Since only 20 amino acids are encoded for, there is about a 3:1 redundancy in the code</li>
+    <li>AGC, AGU, UCU, UCC, UCA, and UCG encode Serine</li>
+    <li>But only UGG encodes Tryptophan</li>
+  </ul>
+</div>
+
+
+<div class="slide">
+  <h1>Reading Frames</h1>
+  <ul>
+    <li>The ribosome can start translating "mid-sequence"</li>
+    <li>And "backwards" on the reverse complement strand (assuming double-stranded DNA)</li>
+    <li>Or even in circles (bacterial plasmids, human mitochondrial DNA)</li>
+  </ul>
+  <center><img src="img/frames.svg"></center>
+</div>
+
+
+
+
+<div class="slide">
+  <h1>BioBricks Standards</h1>
+  <ul>
+    <li>BioBricks is a set of standards for combining small sequences of DNA into larger programs</li>
+    <li>You can order "parts" (red and blue) and they are shipped to you embedded in plasmid backbones</li>
+    <li>Each part is surrounded by restriction sites (green) so they can be cut out easily</li>
+  </ul>
+  <center>
+    <img src="img/biobricks.svg">
+  </center>
+</div>
+
+
+<div class="slide">
+  <h1>Ligating BioBricks Parts</h1>
+  <ul>
+    <li>After cutting the parts out with restriction enzymes, they are glued together and inserted into a new plasmid backbone with ligase enzymes</li>
+    <li>A small "scar" is left over (purple)</li>
+    <li>This composite part can be combined with more parts or inserted into bacteria once you are ready to run the program</li>
+  </ul>
+  <center>
+    <img src="img/biobricks2.svg">
+  </center>
+</div>
+
+
+
+<div class="slide">
+  <h1>Avoid Restriction Sites in Parts</h1>
+  <ul>
+    <li>Because restriction enzymes are used in the BioBricks assembly process, your parts can't contain certain restriction site sequences</li>
+    <li>Importing coding sequences from other species isn't a problem due to genetic code redundancy:</li>
+  </ul>
+
+  <center>
+    <img src="img/biobricks3.svg">
+  </center>
+</div>
+
+
+
+
+<div class="slide">
+  <h1>Gene expression</h1>
+  <ul>
+    <li>E. Coli produces the &beta;-galactosidase enzyme to convert lactose into glucose (food) but only when there's actually lactose present</li>
+    <li>The "Lac operon" is a genetic if statement
+    </li>
+  </ul>
+  <center>
+    <img width="80%" height="80%" src="img/expression0.svg">
+  </center>
+</div>
+
+
+<div class="slide">
+  <h1>How the Lac operon works</h1>
+  <ul>
+    <li>RNA polymerase usually attaches to DNA at promoter sites</li>
+    <li>The regulator gene is transcribed into repressor RNA molecules</li>
+  </ul>
+  <center>
+    <img width="80%" height="80%" src="img/expression1.svg">
+  </center>
+</div>
+
+
+<div class="slide">
+  <h1>The lac operon: Repressed state</h1>
+  <h2>If there is no lactose around, the repressors bind to the operator site on the DNA, blocking the RNA polymerase from transcribing the enzyme gene</h2>
+  <center>
+    <img width="80%" height="80%" src="img/expression2.svg">
+  </center>
+</div>
+
+
+<div class="slide">
+  <h1>The lac operon: Expressed state</h1>
+  <h2>Lactose attaches to the repressors so they can no longer bind to the operator site, allowing the RNA polymerase to transcribe the enzyme gene</h2>
+  <center>
+    <img width="80%" height="80%" src="img/expression3.svg">
+  </center>
+</div>
+
+
+
+<!-- http://2007.igem.org/USTC/Logic-Gate_Promoters -->
+
+<div class="slide">
+  <h1>Boolean And</h1>
+  <center>
+    <img width="80%" height="80%" src="img/and.svg">
+  </center>
+</div>
+
+<div class="slide">
+  <h1>Boolean Or</h1>
+  <center>
+    <img width="90%" height="90%" src="img/or.svg">
+  </center>
+</div>
+
+
+
+<!-- http://www.tcd.ie/Genetics/wellmer-2/html/research.html -->
+
+<div class="slide">
+  <h1>Regulatory networks</h1>
+<table><tr><td width=30% valign=top>
+  <ul>
+    <li>Many parts of DNA interact with many other parts indirectly via their RNA products</li>
+    <li>This diagram depicts a flower development network (from Trinity College Dublin)</li>
+  </ul>
+</td><td>
+  <img height="90%" src="img/network2.jpg">
+</td></tr></table>
+</div>
+
+
+
+<div class="slide">
+  <h1>"Junk" DNA</h1>
+  <ul>
+    <li>In human DNA there are tons of repetitive sequences (counting their lengths is how paternity tests and FBI's CODIS data-base work)</li>
+    <li>The parasitic Alu sequence makes up over 10% of the human genome:</li>
+  </ul>
+  <pre style="margin-top:20px">
+    GCCGGGCGCGGTGGCGCGTGCCTGTAGTCCCAGCTACTCGGGAGGCTG
+    AGGCTGGAGGATCGCTTGAGTCCAGGAGTTCTGGGCTGTAGTGCGCTA
+    TGCCGATCGGGTGTCCGCACTAAGTTCGGCATCAATATGGTGACCTCC
+    CGGGAGCGGGGGACCACCAGGTTGCCTAAGGAGGGGTGAACCGGCCCA
+    GGTCGGAAACGGAGCAGGTCAAAACTCCCGTGCTGATCAGTAGTGGGA
+    TCGCGCCTGTGAATAGCCACTGCACTCCAGCCTGGGCAACATAGCGAG
+    ACCCCGTCTCT
+  </pre>
+  <ul>
+    <li>"Junk" DNA is non-coding (commented out) and it mutates a lot since such mutations don't usually crash the program</li>
+  </ul>
+</div>
+
+
+
+<div class="slide">
+  <h1>RNA Splicing</h1>
+  <ul>
+    <li>In eukaryotes like humans, before RNA is translated into proteins it is post-processed by spliceosomes</li>
+    <li>Sort of like calling subroutines since it allows code re-use when building different but similar proteins</li>
+  </ul>
+  <center>
+    <img src="img/splicing.svg">
+  </center>
+</div>
+
+
+
+<div class="slide">
+  <h1>Conclusion</h1>
+  <ul>
+    <li>I think it's unlikely there is a god because an intelligent designer would create a cleaner byte-code ;)</li>
+    <li>Still, DNA is the best hack ever (it hacked us together after all)</li>
+    <li>DNA is software so let's write some for ourselves</li>
+    <li>Questions/comments?</li>
+  </ul>
+</div>
+
+
+</div>
+</body>
+</html>

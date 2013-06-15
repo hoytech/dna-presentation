@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024px"
+   height="768px"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="or.svg">
+  <defs
+     id="defs2987" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="506.19483"
+     inkscape:cy="557.77091"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="549"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:0.56931263px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2993"
+       width="85.396896"
+       height="20.495255"
+       x="98.752571"
+       y="304.6293" />
+    <rect
+       style="fill:#008000;fill-rule:evenodd;stroke:#000000;stroke-width:0.35201633px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2993-8"
+       width="32.648712"
+       height="20.495255"
+       x="194.39711"
+       y="304.6293" />
+    <rect
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:0.35201633px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2993-8-2"
+       width="32.648712"
+       height="20.495255"
+       x="237.85057"
+       y="304.06" />
+    <rect
+       style="fill:#ff00ff;fill-rule:evenodd;stroke:#000000;stroke-width:0.93287015px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2993-8-2-8"
+       width="229.28883"
+       height="20.495255"
+       x="283.29788"
+       y="304.29581" />
+    <text
+       xml:space="preserve"
+       style="font-size:22.77250481px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="93.740334"
+       y="256.76996"
+       id="text3828"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3830"
+         x="93.740334"
+         y="256.76996">Regulator</tspan><tspan
+         sodipodi:role="line"
+         x="93.740334"
+         y="285.2356"
+         id="tspan3832">   Genes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.77250481px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="158.32933"
+       y="227.8633"
+       id="text3834"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3836"
+         x="158.32933"
+         y="227.8633">Promoter</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.77250481px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="246.58376"
+       y="294.10876"
+       id="text3838"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3840"
+         x="246.58376"
+         y="294.10876">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.77250481px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff00ff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="319.32169"
+       y="291.04025"
+       id="text3842"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3844"
+         x="319.32169"
+         y="291.04025">Enzyme Gene</tspan></text>
+    <rect
+       style="fill:#008000;fill-rule:evenodd;stroke:#000000;stroke-width:0.35201633px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2993-8-1"
+       width="32.648712"
+       height="20.495255"
+       x="53.962597"
+       y="304.6293" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="132.93608"
+       y="137.26076"
+       id="text6200"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6202"
+         x="132.93608"
+         y="137.26076">if (X || Y) make_enzyme();</tspan></text>
+    <rect
+       style="fill:#aa0000;fill-rule:evenodd;stroke:#000000;stroke-width:0.35201633px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2993-8-2-3-5"
+       width="32.648712"
+       height="20.495255"
+       x="574.01318"
+       y="302.27139" />
+    <text
+       xml:space="preserve"
+       style="font-size:22.77250481px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a02c2c;fill-opacity:1;stroke:none;font-family:Sans"
+       x="583.35913"
+       y="291.02985"
+       id="text3838-9-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3840-4-2"
+         x="583.35913"
+         y="291.02985">Y</tspan></text>
+    <rect
+       style="fill:#008000;fill-rule:evenodd;stroke:#000000;stroke-width:0.35201633px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2993-8-7-1"
+       width="32.648712"
+       height="20.495255"
+       x="528.88525"
+       y="302.7251" />
+    <rect
+       style="fill:#ff00ff;fill-rule:evenodd;stroke:#000000;stroke-width:0.93287015px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2993-8-2-8-4-9"
+       width="229.28883"
+       height="20.495255"
+       x="619.20026"
+       y="303.80582" />
+    <text
+       xml:space="preserve"
+       style="font-size:22.77250481px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff00ff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="652.58124"
+       y="288.00641"
+       id="text3842-7-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3844-2-8"
+         x="652.58124"
+         y="288.00641">Enzyme Gene</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="135.7645"
+       y="84.934845"
+       id="text6442"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6444"
+         x="135.7645"
+         y="84.934845">// TODO: refactor copy-pasted gene</tspan></text>
+  </g>
+</svg>
